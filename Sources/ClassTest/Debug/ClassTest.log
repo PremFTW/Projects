@@ -1,0 +1,6 @@
+﻿  ClassTest.cpp
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\ClassTest\ClassTest.cpp(26,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\ClassTest\ClassTest.cpp(28,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\ClassTest\ClassTest.cpp(29,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\ClassTest\ClassTest.cpp(30,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ClassTest.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\ClassTest\Debug\ClassTest.exe
