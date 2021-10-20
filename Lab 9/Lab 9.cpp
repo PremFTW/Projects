@@ -1,43 +1,71 @@
 #include <iostream>
-// Declared this to use power function
+// Declared this to use the power function
 #include<math.h>
 
 int main()
 {
-    // Declaring function and variables
-    float series_sum(int n);
+    // Declaring the function and variables
+    double series_sum(double n);
 
-    int n;
-    float sum = 0;
+    double answer = 0, angle, og;
 
-    // Get an odd number from the user
-    std::cout << "Please enter an odd number: ";
-    std::cin >> n;
+    // Getting the angle in radians from the user
+    std::cout << "Enter angle in radians: ";
+    std::cin >> angle;
 
-    // Check if it is an odd number
-    if (n % 2 == 0)
-    {
-        std::cout << "You can only enter odd numbers";
-    }
-    else
-    {
-        sum = series_sum(n);
-    }
+    // Computing cosine of the angle from my own functions and the built in function
+    answer = series_sum(angle);
+    og = cos(angle);
 
-    // Printing the result
-    std::cout << "The sum of the series when N = " << n << " is = " << sum;
+    // Printing my results
+    std::cout << "The result from my program: \n";
+    std::cout << "The cosine of " << angle << " rad is = " << answer << ".\n";
+
+    // Printing the built in function results
+    std::cout << "The result from the built-in cos function: \n";
+    std::cout << "The cosine of " << angle << " rad is = " << og << ".";
+
+    return 0;
 }
 
 // Function to find the sum of the series
-float series_sum(int n)
+double series_sum(double n)
 {
-    // Declaring variable
-    float sum = 0;
-    for (int i = 1; i <= n; i += 2)
+    // Declaring function and variables
+    int nfact(int n);
+    double sum = 1, fact;
+    int k = 0;
+
+    // For loop that increments by two
+    for (int i = 2; i <= 10; i += 2)
     {
-        sum += i / pow(i + 1.0, 2.0);
+        // Getting the factoral
+        fact = nfact(i);
+
+        // Summing
+        sum += (pow(-1, k + 1)) * ((pow(n, i)) / fact);
+
+        // Used to alternate signs
+        k++;
     }
 
-    // returning sum
+    // Returning the result
     return sum;
+}
+
+// Function to find the factorial of n number
+int nfact(int n)
+{
+    // Declaring variables
+    int fact = 1;
+
+    while (n > 0)
+    {
+        // The math
+        fact *= n;
+        n--;
+    }
+
+    // returning factorial of the n number
+    return fact;
 }
