@@ -9,7 +9,7 @@ int main()
 
     // Declaring all the variables I need
     unsigned int seed;
-    double com1 = 0.8, com2 = 0.85, com3 = 0.95, com4 = 0.9, num1, num2, num3, num4;
+    double com1 = 0.8, com2 = 0.85, com3 = 0.95, com4 = 0.9, num1, num2, num3, num4, percent;
     int count = 0;
 
     // Getting the seed from user and applying it
@@ -33,7 +33,9 @@ int main()
         }
     }
 
-    printf("Out of the 1000 times, %lf number of times it was successful.", &count);
+    percent = (count / 1000.0) * 100.0;
+
+    printf("The percentage of reliability from a to b is %lf.", percent);
 
     return 0;
 }
