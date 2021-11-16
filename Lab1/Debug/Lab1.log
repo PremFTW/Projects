@@ -1,3 +1,3 @@
 ﻿  Lab1.cpp
-C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab1\Lab1.cpp(11,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Lab1.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab1\Debug\Lab1.exe
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab1\Lab1.cpp(12,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Lab1.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab1\Debug\Lab1.exe

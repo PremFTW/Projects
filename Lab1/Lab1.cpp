@@ -4,14 +4,14 @@
 
 int main()
 {
-	int a = 5;
-	int b = 8;
+	int x1 = 5;
+	int x2 = 3;
+	int y1 = 6;
+	int y2 = 2;
 
-	int sum = a + b;
-	float avg = sum / 2.0;
-
-	printf("The sum of a and b = %d \n", sum);
-	printf("The average of a and b = %f \n", avg);
+	float d = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+	
+	printf("The distance between two points = %f \n", d);
 
 	return 0;
 }
