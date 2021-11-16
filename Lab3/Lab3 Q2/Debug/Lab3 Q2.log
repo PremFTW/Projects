@@ -1,0 +1,4 @@
+﻿  Lab3 Q2.cpp
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab3\Lab3 Q2\Lab3 Q2.cpp(11,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab3\Lab3 Q2\Lab3 Q2.cpp(17,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab3 Q2.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab3\Debug\Lab3 Q2.exe
