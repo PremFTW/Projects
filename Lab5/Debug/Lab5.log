@@ -1,4 +1,6 @@
 ﻿  Lab5.cpp
-C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab5\Lab5.cpp(20,45): warning C4474: 'printf' : too many arguments passed for format string
-C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab5\Lab5.cpp(20,45): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-  Lab5.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab5\Debug\Lab5.exe
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Lab5.cpp(8,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Lab5.cpp(8,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Lab5.cpp(8,13): message : the missing variadic argument 2 is required by format string '%c'
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Lab5.cpp(8,13): message : this argument is used as a buffer size
+  Lab5.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Debug\Lab5.exe

@@ -1,21 +1,27 @@
 #include <iostream>
-#include<math.h>
 
 int main()
 {
-	double x, sum = 0, rms;
-	int N = 10, count = 10;
+    char course;
 
-	while (count > 0)
-	{
-		printf("Enter the value of x: ");
-		scanf_s("%lf", &x);
-		sum += pow(x, 2);
-		printf("Sum = %f . \n", sum);
-		count--;
-	}
-	
-	rms = pow(((1.0 / N) + sum),1.0/2.0);
+    printf("Enter the first character of the course you want to take:");
+    scanf_s("%c", &course);
 
-	printf("The rms value when x is %f = ", x, rms);
+    switch (course)
+    {
+    case 'e': case 'E':
+        printf("You have selected English. \n");
+        break;
+    case 'h': case 'H':
+        printf("You have selected History. \n");
+        break;
+    case 'l': case'L':
+        printf("You have selected Literature. \n");
+        break;
+    default:
+        printf("Please enter either E, H, or L.");
+        break;
+    }
+
+    return 0;
 }

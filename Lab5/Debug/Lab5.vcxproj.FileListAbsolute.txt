@@ -1,2 +1,4 @@
 C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab5\Debug\Lab5.exe
 C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Sources\Lab5\Debug\Lab5.pdb
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Debug\Lab5.exe
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Lab5\Debug\Lab5.pdb
