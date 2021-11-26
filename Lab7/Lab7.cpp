@@ -1,33 +1,30 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <math.h>
 
 int main()
 {
-	double n = 0.0, speed, avg, height, maxHeight, sum = 0.0;
+	double x, sum = 1.0, total = 0.0;
 
-	FILE* input;
-	
-	input = fopen("input.txt", "r");
-	fscanf(input, "%lf", &n);
-
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < 10; i++)
 	{
-		fscanf(input, "%lf	%lf", &speed, &height);
-		sum += speed;
+		printf("Enter the value of x: ");
+		scanf_s("%lf", &x);
+		if (x <= 0)
+		{
+			printf("You must enter a number greater than zero. \n");
+			i--;
+			continue;
+		}
+		else
+		{
+			sum *= x;
+			printf("Sum = %f . \n", sum);
+		}
 
-		if (i == 0)
-		{
-			maxHeight = height;
-		}
-		else if (maxHeight < height)
-		{
-			maxHeight = height;
-		}
 	}
 
-	avg = sum / n;
+	total = pow(sum, 1.0 / 10.0);
 
-	printf("The average speed = %lf and The max height = %lf", avg, maxHeight);
-
+	printf("The Geometric mean = %f.", total);
 	return 0;
 }
