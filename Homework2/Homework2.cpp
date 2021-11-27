@@ -3,17 +3,31 @@
 
 int main()
 {
-    float answer = 0;
-    int count1 = 1, count2 = 2;
+    float x, y, answer;
 
-    while (count1 <= 7)
+    printf("Enter a value for x:");
+    scanf_s("%f", &x);
+    printf("Enter a value for y:");
+    scanf_s("%f", &y);
+
+    if ((x >= 0) && (y >= 0))
     {
-        answer += count1 /(pow(count2,2.0));
-        count1++;
-        count2++;
+        answer = x + y;
+    }
+    else if ((x >= 0) && (y < 0))
+    {
+        answer = x + pow(y, 2);
+    }
+    else if ((x < 0) && (y >= 0))
+    {
+        answer = pow(x, 2) + y;
+    }
+    else if ((x < 0) && (y < 0))
+    {
+        answer = pow(x, 2) + pow(y, 2);
     }
 
-    printf("The sum of the series = %f", answer);
+    printf("Answer = %f", answer);
 
     return 0;
 }
