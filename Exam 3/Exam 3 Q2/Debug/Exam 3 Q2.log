@@ -1,0 +1,3 @@
+﻿  Exam 3 Q2.cpp
+C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Exam 3\Exam 3 Q2\Exam 3 Q2.cpp(15,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'int *'
+  Exam 3 Q2.vcxproj -> C:\PremFTW\College Work\College Stuff\GSU\Semester 3\Program Design for Engineers\Projects\Exam 3\Debug\Exam 3 Q2.exe
